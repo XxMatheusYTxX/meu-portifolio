@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="https://w3schools.com/w3css/4/w3.css">
+    <title>Matheus Seleguim</title>
+</head>
+
+<body>
+    <!--Barra de Navegação-->
+    <header>
+        <nav class="container nav ">
+            <!--Logo barra NAV-->
+            <div class="esquerda">
+                <h1 class="textonavlogo">
+                    &lt;MS/&gt;
+                </h1>
+            </div>
+            <!--Lista barra NAV-->
+            <div class="direita">
+                <div class="ulnoresponsive">
+
+                    <ul style="display: inline;">
+                        <li class="textonav display "><a href="#page1"> HOME</a></li>
+                        <li class="textonav display espaco"><a href="#page2">SOBRE MIM</a></li>
+                        <li class="textonav display espaco"><a href="#page3">PROJETOS</a></li>
+                        <li class="textonav display espaco"><a href="#page4">CONHECIMENTOS</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <!--Icone Responsivo barra NAV-->
+            <div class="mobilemenuicon">
+                <button onclick="mostrarmenu()">
+                    <img class="icone" src="Imagens\menu_white_36dp.svg" alt="">
+                </button>
+            </div>
+        </nav>
+        <!--Itens Menu responsivo barra NAV-->
+        <div class="menumobile">
+
+            <ul style="display: inline;">
+                <li class="textonav  hover"><a href="#page1"> HOME</a></li>
+                <li class="textonav  hover espaco"><a href="#page2">SOBRE MIM</a></li>
+                <li class="textonav  hover espaco"><a href="#page3">PROJETOS</a></li>
+                <li class="textonav  hover espaco"><a href="#page4">CONHECIMENTOS</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+    <!--Página 1-->
+
+    <div class="margin">
+        <div id="page1">
+            <!--Pagina 1 Textos-->
+            <div class="container" id="responsivopg2">
+                <div class="w3-half igualar" style="border-bottom: solid 2px #D9D9D9 ;">
+
+
+                    <h3 class="textopag1h3"> Olá, me chamo</h3>
+                    <h1 class="textopag1h1">Matheus Seleguim</h1>
+                    <h2 class="textopag1h2">Desenvolvedor Front-End</h2>
+                    <br>
+                    <!--Botoes PG 1-->
+                    <div style="width: 100%;" id="imagenspg1">
+                        <div class="alinharfoto">
+                            <a href="https://www.linkedin.com/feed/" target="_blank">
+                                <button class="botao"><img class="centralizarimg" src="Imagens\linkedlnlogo.png" alt=""
+                                        width="32%">Linkedln</button> </a>
+                            <span class="espaco"></span>
+                            <a href="https://github.com/" target="_blank">
+                                <button class="botao"><img class="centralizarimg" src="Imagens\githublogo.png" alt=""
+                                        width="32%">GitHub</button></a>
+                        </div>
+                    </div>
+
+                    <br><br>
+                    <!--Foto PG 1-->
+                </div>
+                <div class="w3-half igualar" id="deletardivmedia">
+                    <div class="alinharfoto">
+                        <img src="Imagens\fotoperfil.png" width="60%" alt="">
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <!--Scrolar Para Baixo-->
+            <div class="alinharfoto" id="roleparabaixo">
+
+                <img src="Imagens\mousepg1.png" width="6%" style="display: inline;" alt="">
+                <p class="textorolepg1" style="display: inline;">Role para baixo</p>
+
+
+            </div>
+            <br><br><br>
+
+        </div>
+        <!--Página 2-->
+        <div id="page2">
+            <h1 class="titulopg2">sobre mim</h1>
+            <br><br><br>
+            <div class="bordapg2">
+                <div style="margin: 2%;">
+                    <p class="textopg2">Olá! Meu nome é Matheus e tenho 15 anos. Moro em Barretos-SP. <br><br>
+
+                        Atualmente, estou estudando desenvolvimento de sistemas na ETEC, uma instituição de ensino
+                        renomada
+                        que tem me proporcionado uma base sólida em tecnologia da informação. <br><br>
+                        Além do meu curso na ETEC, também estou sempre buscando expandir meus conhecimentos através
+                        de cursos externos. Acredito firmemente que a aprendizagem é um processo contínuo e que devemos
+                        sempre nos esforçar para aprimorar e atualizar nossas habilidades<br><br>
+                        Sou apaixonado por tecnologia e tudo o que ela envolve. A capacidade da tecnologia de
+                        transformar
+                        vidas e mudar o mundo me fascina. Estou ansioso para continuar minha jornada no campo da
+                        tecnologia
+                        e estou animado para ver onde essa jornada me levará.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Página 3-->
+        <div id="page3">
+
+            <h1 class="titulopg3">Projetos</h1>
+            <br><br><br><br>
+            <!--Projetos PG3-->
+            <div class="container display600">
+                <div class="w3-third divisao3 " style="margin-right: 1.25%;">
+                    <div class="imagemp">
+                        <img src="Imagens/embreve.jpeg" width="100%" alt="" class="arredondar">
+                    </div>
+                    <hr class="linhap">
+                    <div class="textoprojetos">EM BREVE! <br> EM BREVE! <br>EM BREVE!
+                        <br>EM BREVE! <br>EM BREVE! <br>EM BREVE! <br>EM BREVE! <br>EM BREVE! <br>EM BREVE!
+
+                        <div class="alinharfoto" style="margin-top: 4%;">
+                            <button class="botaop">Repositório</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="w3-third divisao3 " style="margin-left: 1.25%; margin-right: 1.25%;">
+                    <div class="imagemp">
+                        <img src="Imagens/embreve.jpeg" width="100%" alt="" class="arredondar">
+                    </div>
+                    <hr class="linhap">
+                    <div class="textoprojetos">EM BREVE! <br> EM BREVE! <br>EM BREVE!
+                        <br>EM BREVE! <br>EM BREVE! <br>EM BREVE! <br>EM BREVE! <br>EM BREVE! <br>EM BREVE!
+                        <div class="alinharfoto" style="margin-top: 4%;">
+
+                            <button class="botaop">Repositório</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-third divisao3 " style="margin-left: 1.25%;">
+                    <div class="imagemp ">
+                        <img src="Imagens/embreve.jpeg" width="100%" alt="" class="arredondar">
+                    </div>
+                    <hr class="linhap">
+                    <div class="textoprojetos">EM BREVE! <br> EM BREVE! <br>EM BREVE!
+                        <br>EM BREVE! <br>EM BREVE! <br>EM BREVE! <br>EM BREVE! <br>EM BREVE! <br>EM BREVE!
+
+                        <div class="alinharfoto" style="margin-top: 4%;">
+
+                            <button class="botaop">Repositório</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Projetos PG 3 responsivo-->
+            <div id="projetosresponsivo">
+                <div class="bordapresponsivo">
+                    <div class="alinharimgpresponsivo">
+                        <img src="Imagens/embreveresponsivo.jpeg" width="100%" alt="">
+                    </div>
+                    <div class="diminuirresponsivo textopresponsivo450">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Ducimus earum
+                        nulla similique ullam tempora, iste dicta perferendis consequuntur temporibus sint dolores est
+                        rem voluptatibus incidunt reprehenderit adipisci delectus voluptatem suscipit.
+                    </div>
+                </div>
+                <div class="bordapresponsivo">
+                    <div class="diminuirresponsivo textopresponsivo450">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Ducimus earum
+                        nulla similique ullam tempora, iste dicta perferendis consequuntur temporibus sint dolores est
+                        rem voluptatibus incidunt reprehenderit adipisci delectus voluptatem suscipit.
+                    </div>
+                    <div class="alinharimgpresponsivo">
+                        <img src="Imagens/embreveresponsivo.jpeg" width="100%" alt="">
+                    </div>
+                </div>
+                <div class="bordapresponsivo">
+                    <div class="alinharimgpresponsivo">
+                        <img src="Imagens/embreveresponsivo.jpeg" width="100%" alt="">
+                    </div>
+                    <div class="diminuirresponsivo textopresponsivo450">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Ducimus earum
+                        nulla similique ullam tempora, iste dicta perferendis consequuntur temporibus sint dolores est
+                        rem voluptatibus incidunt reprehenderit adipisci delectus voluptatem suscipit.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Pagina 4-->
+
+        <div id="page4">
+            <h1 class="titulopg3">Conhecimentos</h1>
+            <br><br><br>
+            <!--6 Elementos Conhecimentos-->
+            <div class="container reverse">
+
+                <div style="flex: 1;" id="txtlinguagens">
+                    <p id="textolinguagens" style="display: inline;">Clique no elemento que
+                        deseja
+                        saber um pouco sobre</p>
+                    <br><br>
+                    <span id="tempoexperiencia"></span>
+                </div>
+                <script>
+
+                    function html() {
+                        document.getElementById('textolinguagens').textContent = 'HTML, que significa Linguagem de Marcação de Hipertexto, é a linguagem base da web1. É o código que você usa para estruturar uma página web e seu conteúdo';
+                        document.getElementById('tempoexperiencia').textContent = '6 Meses de experiência';
+                    }
+                    function css() {
+                        document.getElementById('textolinguagens').textContent = 'CSS, que significa Cascading Style Sheets (Folhas de Estilo em Cascata), é uma linguagem de folha de estilo usada para descrever a apresentação de um documento escrito em HTML ou XML (incluindo dialetos XML como SVG, MathML ou XHTML)1. O CSS descreve como os elementos devem ser renderizados na tela, no papel, na fala ou em outros meios';
+                        document.getElementById('tempoexperiencia').textContent = '6 meses de experiência';
+                    }
+                    function js() {
+                        document.getElementById('textolinguagens').textContent = 'JavaScript é uma linguagem de programação amplamente utilizada no front-end para diferentes finalidades1. É uma linguagem de programação leve, interpretada (ou compilada just-in-time) com funções de primeira classe';
+                        document.getElementById('tempoexperiencia').textContent = '3 semanas de experiência';
+                    }
+                    function php() {
+                        document.getElementById('textolinguagens').textContent = 'PHP, que significa PHP: Hypertext Preprocessor, é uma linguagem de script de uso geral muito popular que é especialmente adequada para o desenvolvimento web1. É uma linguagem de script open source, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML';
+                        document.getElementById('tempoexperiencia').textContent = '1 semana de experiência';
+                    }
+                    function sql() {
+                        document.getElementById('textolinguagens').textContent = 'MySQL é um serviço de banco de dados muito popular, adequado para desenvolvimento web1. É uma linguagem de script de código aberto, amplamente utilizada, especialmente adequada para o desenvolvimento web e que pode ser incorporada dentro do HTML';
+                        document.getElementById('tempoexperiencia').textContent = '4 mêses de experiência';
+                    }
+                    function figma() {
+                        document.getElementById('textolinguagens').textContent = 'Figma é uma ferramenta de design colaborativa líder para a construção de produtos significativos1. É uma ferramenta de design de interface colaborativa confiável por equipes1. Com o Figma, você pode projetar, prototipar, desenvolver e coletar feedback em uma única plataforma';
+                        document.getElementById('tempoexperiencia').textContent = '1 mês de experiência';
+                    }
+
+
+                </script>
+                <!--Parte com responsividade-->
+                <!--Metade aparece, quando tela esta pequena, tudo aparece-->
+                <div style="flex: 1;">
+                    <div class="w3-half">
+                        <div class="alinhardivdireita ">
+                            <div class="fundolinguagens" id="diminuir"><img id="html" onclick="html()" width="85%"
+                                    src="Imagens\htmllogo.png" alt="">
+                            </div>
+
+                            <div id="esconderdivs" style="width: 50%;">
+                                <div class="fundolinguagens alinharfoto" id="diminuir"><img id="php" onclick="php()"
+                                        width="100%" src="Imagens\phplogo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alinhardivdireita distanciafundo">
+                            <div class="fundolinguagens" id="diminuir"><img id="css" onclick="css()" width="85%"
+                                    src="Imagens\csslogo.png" alt="">
+                            </div>
+
+                            <div id="esconderdivs" style="width: 50%;">
+                                <div class="fundolinguagens " id="diminuir">
+                                    <img id="sql" onclick="sql()" width="100%" src="Imagens\mysqllogo.png" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="alinhardivdireita distanciafundo">
+                            <div class="fundolinguagens" id="diminuir"><img id="js" onclick="js()" width="85%"
+                                    src="Imagens\jslogo.png" alt="">
+                            </div>
+                            <div id="esconderdivs" style="width: 50%;">
+                                <div class="fundolinguagens" id="diminuir">
+                                    <img id="figma" onclick="figma()" width="100%" src="Imagens\figmalogo.png" alt="">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Sumir na responsividade-->
+                    <div class="w3-half esconderbaixo">
+                        <div style="height: 33%;" class="alinhardiv esconderdivsinverso">
+                            <div class="fundolinguagens" id="diminuir"><img id="php" onclick="php()" width="90%"
+                                    src="Imagens\phplogo.png" alt="">
+                            </div>
+                        </div>
+                        <div style="height: 33%;" class="alinhardiv distanciafundo esconderdivsinverso">
+                            <div class="fundolinguagens" id="diminuir"><img id="sql" onclick="sql()" width="90%"
+                                    src="Imagens\mysqllogo.png" alt="">
+                            </div>
+                        </div>
+                        <div style="height: 33%;" class="alinhardiv distanciafundo esconderdivsinverso ">
+                            <div class="fundolinguagens" id="diminuir"><img id="figma" onclick="figma()" width="90%"
+                                    src="Imagens\figmalogo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Pagina 5-->
+    <br><br>
+    <div class="footer">
+        <div>
+            <h2 class="textofooter1">Obrigado pela visita!</h2>
+            <h3 class="textofooter2">Se deseja falar comigo, me envie uma mensagem</h3>
+            <br>
+            <span class="emailfooter">seleguimmatfend@gmail.com</span>
+            <br><br>
+        </div>
+        <!--Imagens footer(logos)-->
+        <div class="container footerobjetos">
+            <div class="w3-half alinharesquerda">
+                <div class="distanciaimgs">
+                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                        <img src="Imagens\linkedlnlogo.png" width="60%" alt="">
+                    </a>
+                </div>
+                <div style="display: inline;">
+                    <a href="https://www.github.com/" target="_blank">
+                        <img src="Imagens\githublogo.png" width="60%" alt="">
+                    </a>
+                </div>
+            </div>
+            <!--Texto no footer(developed)-->
+            <div class="w3-half" style="flex: 1;">
+                <div class="developed">
+                    <span>
+                        Desenvolvido por Matheus Seleguim
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
